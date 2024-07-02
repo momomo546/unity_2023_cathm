@@ -7,7 +7,7 @@ public class Scene_change : MonoBehaviour
 {
     void Update()
     {
-        if(Input.anyKey){
+        if(Input.GetKey(KeyCode.Return)){
             SceneManager.LoadScene("Music_select_Scene");
         }
     }
